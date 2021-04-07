@@ -3,7 +3,9 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Mulish', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .header {
@@ -13,6 +15,7 @@ body {
   padding-bottom: 20px;
   padding-left: 32px;
   padding-right: 70px;
+  margin-bottom: 30px;
 }
 
 .menu-button {
@@ -58,6 +61,7 @@ body {
   padding-bottom: 12px;
   padding-left: 23px;
   padding-right: 23px;
+  width: 100%;
 }
 
 .button-search {
@@ -99,10 +103,6 @@ body {
   height: 20px;
 }
 
-/*.icon-video:hover {
-  opacity: 0.8;
-}*/
-
 .icon-apps {
   width: 21px;
   height: 21px;
@@ -121,4 +121,116 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+}
+
+.sidebar {
+  padding-left: 32px;
+}
+
+.nav-menu {
+  margin-top: 0;
+  margin-bottom: 60px;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.nav-item {
+  margin-bottom: 28px;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  color: #898989;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #FF0000;
+}
+
+.icon-home, .icon-trending, .icon-subscriptions, .icon-library, .icon-history, .icon-watch-later, .icon-favourites, .icon-liked-videos, .icon-music, .icon-games, .icon-show-more, .icon-setting {
+  fill: #898989;
+}
+
+.icon-home:hover, .icon-trending:hover, .icon-subscriptions:hover, .icon-library:hover, .icon-history:hover, .icon-watch-later:hover, .icon-favourites:hover, .icon-liked-videos:hover, .icon-music:hover, .icon-games:hover, .icon-show-more:hover, .icon-setting:hover {
+  fill: #FF0000;
+}
+
+.icon-home {
+  width: 20px;
+  height: 19px;
+}
+
+.icon-trending {
+  width: 16px;
+  height: 21px;
+}
+
+.icon-subscriptions {
+  width: 18px;
+  height: 18px;
+}
+
+.icon-library {
+  width: 20px;
+  height: 16px;
+}
+
+.icon-history {
+  width: 20px;
+  height: 18px;
+}
+
+.icon-watch-later {
+  width: 17px;
+  height: 19px;
+}
+
+.icon-favourites {
+  width: 19px;
+  height: 18px;
+}
+
+.icon-liked-videos {
+  width: 18px;
+  height: 17px;
+}
+
+.icon-music {
+  width: 18px;
+  height: 20px;
+}
+
+.icon-games {
+  width: 22px;
+  height: 16px;
+}
+
+.icon-show-more {
+  width: 14px;
+  height: 8px;
+}
+
+.icon-setting {
+  width: 19px;
+  height: 20px;
+}
+
+.nav-text {
+  margin-left: 13px;
+}
+
+.nav-image {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+}
+
+.nav-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 30px;
 }
